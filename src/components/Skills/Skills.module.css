@@ -1,0 +1,266 @@
+.skillsTitle
+{
+    margin-bottom: 15px;
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family: Quicksand,Arial,sans-serif;
+}
+
+.skillsHeading
+{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+    margin: 0 0 30px;
+    color: #000;
+    font-family: "Playfair Display,Georgia,serif";
+}
+
+.skillsText
+{
+    margin-bottom: 1.5em;
+    font-family: Quicksand,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #000000b3;
+}
+
+.progressTitle
+{
+    font-size: 16px;
+    font-family: Quicksand,Arial,sans-serif;
+    font-weight: 400;
+    color: #000;
+    margin: 25px 0 0;
+}
+.progress
+{
+    height: 6px;
+    box-shadow: none;
+    background: #f2f3f7;
+    overflow: visible;
+}
+.proColor1 .progressBar:after, .proColor1 .progressBar {
+    color: #2c98f0 !important;
+    background: #2c98f0 !important;
+}
+
+.progressBar {
+    position: relative;
+    border-radius: 8px;
+    height: 100%;
+}
+.progressBar::before {
+    content: "95%";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.progressBar::after {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    content: "";
+    background: #2c98f0;
+    border-radius: 50%;
+}
+
+
+.proColor2 .progressBar2:after, .proColor2 .progressBar2 {
+    color: #a84cb8 !important;
+    background: #a84cb8 !important;
+}
+
+.progressBar2 {
+    position: relative;
+    border-radius: 8px;
+    height: 100%;
+}
+.progressBar2::before {
+    content: "90%";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.progressBar2::after {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    content: "";
+    background: #a84cb8;
+    border-radius: 50%;
+}
+
+
+.proColor3 .progressBar3:after, .proColor3 .progressBar3 {
+    color: #2fa499 !important;
+    background: #2fa499 !important;
+}
+
+.progressBar3 {
+    position: relative;
+    border-radius: 8px;
+    height: 100%;
+}
+.progressBar3::before {
+    content: "85%";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.progressBar3::after {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    content: "";
+    background: #2fa499;
+    border-radius: 50%;
+}
+
+
+
+.proColor4 .progressBar4:after, .proColor4 .progressBar4 {
+    color: #09c !important;
+    background: #09c !important;
+}
+
+.progressBar4 {
+    position: relative;
+    border-radius: 8px;
+    height: 100%;
+}
+.progressBar4::before {
+    content: "90%";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.progressBar4::after {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    content: "";
+    background: #09c;
+    border-radius: 50%;
+}
+
+
+
+.proColor5 .progressBar5:after, .proColor5 .progressBar5 {
+    color: #ec5453 !important;
+    background: #ec5453 !important;
+}
+
+.progressBar5 {
+    position: relative;
+    border-radius: 8px;
+    height: 100%;
+}
+.progressBar5::before {
+    content: "85%";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.progressBar5::after {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    content: "";
+    background: #ec5453;
+    border-radius: 50%;
+}
+
+
+.proColor6 .progressBar6:after, .proColor6 .progressBar6 {
+    color: #4054b2 !important;
+    background: #4054b2 !important;
+}
+
+.progressBar6 {
+    position: relative;
+    border-radius: 8px;
+    height: 100%;
+}
+.progressBar6::before {
+    content: "70%";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.progressBar6::after {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    content: "";
+    background: #4054b2;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .skillsTitle {
+      font-size: 15px;
+      font-weight: 500;
+    }
+  
+    .skillsHeading {
+      font-size: 22px;
+      font-weight: 700;
+    }
+  
+    .skillsText {
+        font-size: 17px;
+        font-weight: 700;
+      }
+      .progress{
+    height: 10px;
+    }
+    .progressTitle
+{
+    font-size: 22px;
+    
+}
+    .progressBar::after,.progressBar2::after,.progressBar3::after,.progressBar4::after,.progressBar5::after,.progressBar6::after {
+        width: 15px;
+        height: 15px;
+    }
+  }
+  

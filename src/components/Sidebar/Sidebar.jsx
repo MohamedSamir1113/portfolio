@@ -9,10 +9,10 @@ function Sidebar() {
                     <h5 className=''>Mohamed Samir</h5>
                     <p><span className='text-info'>Frontend Developer</span> in Cairo,Egypt</p>
                     <ul className='list-unstyled pt-2'>
-                        <li><p className='d-inline'><Link to="/">Home</Link></p></li>
-                        <li><p className='d-inline'>About</p></li>
-                        <li><p className='d-inline'>Skills</p></li>
-                        <li><p className='d-inline'>Experiece</p></li>
+                        <li><p className='d-inline'><Link style={{textDecoration:"none",color:"black"}} to="/">Home</Link></p></li>
+                        <li><p className='d-inline'><Link style={{textDecoration:"none",color:"black"}} to="/about">About</Link></p></li>
+                        <li><p className='d-inline'><Link style={{textDecoration:"none",color:"black"}} to="/skills">Skills</Link></p></li>
+                        <li><Link style={{textDecoration:"none",color:"black"}} to="/experience"><p className='d-inline text-black'>Experience</p></Link></li>
                         <li><p className='d-inline'>Work</p></li>
                     </ul>
                 </div>

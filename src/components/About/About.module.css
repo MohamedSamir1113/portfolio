@@ -1,0 +1,80 @@
+.aboutTitle
+{
+    margin-bottom: 15px;
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family: Quicksand,Arial,sans-serif;
+}
+
+.aboutHeading
+{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+    margin: 0 0 30px;
+    color: #000;
+    font-family: "Playfair Display,Georgia,serif";
+}
+
+.aboutText
+{
+    margin-bottom: 1.5em;
+    font-family: Quicksand,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #000000b3;
+}
+.services
+{
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 0;
+    box-shadow: 0 0 56px -8px #0000002b;
+    padding: 1.5em;
+}
+.services h3 {
+    font-family: Quicksand, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.services i
+{
+    font-size: 30px;
+}
+.color1
+{
+    border-bottom: 2px solid #2c98f0;
+}
+.color2
+{
+    border-bottom: 2px solid #ec5453;
+}
+.color3
+{
+    border-bottom: 2px solid #f9bf3f;
+}
+.color4
+{
+    border-bottom: 2px solid #a84cb8;
+}
+
+.iconColor1{
+   color:#2c98f0;
+}
+.iconColor2{
+   color:#ec5453;
+}
+.iconColor3{
+   color:#f9bf3f;
+}
+.iconColor4{
+   color:#a84cb8;
+}
