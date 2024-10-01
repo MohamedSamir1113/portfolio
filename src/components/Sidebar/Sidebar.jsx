@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import styles from './Sidebar.module.css'
 function Sidebar() {
     return (
-        <div className="sidebar vh-100">
+        <div className="sidebar position-fixed top-0 bottom-0">
             <div className='container-fluid d-flex justify-content-center text-center align-items-center py-2'>
                 <div className='py-5'>
                     <div className='userImg'></div>
@@ -13,7 +13,7 @@ function Sidebar() {
                         <li><p className='d-inline'><Link style={{textDecoration:"none",color:"black"}} to="/about">About</Link></p></li>
                         <li><p className='d-inline'><Link style={{textDecoration:"none",color:"black"}} to="/skills">Skills</Link></p></li>
                         <li><Link style={{textDecoration:"none",color:"black"}} to="/experience"><p className='d-inline text-black'>Experience</p></Link></li>
-                        <li><p className='d-inline'>Work</p></li>
+                        <li><Link style={{textDecoration:"none",color:"black"}} to="/work"><p className='d-inline text-black'>WORK</p></Link></li>
                     </ul>
                 </div>
 
