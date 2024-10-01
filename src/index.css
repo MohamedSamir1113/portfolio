@@ -84,3 +84,16 @@ body
 {
   color: black;
 }
+
+.burger-menu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 1001;
+  border-radius: 5px;
+}

@@ -32,12 +32,12 @@ function Work() {
                 <div className="tab-content" id="pills-tabContent">
 
                     <div className="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
-                        tabindex="0">
+                        tabIndex="0">
 
                         <div className="row g-3">
                             <div className="col-md-6">
                                 <div className={`${styles.portItem}`}>
-                                    <img src="img-1-C4nS0eD8.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                    <img src="img-1-C4nS0eD8.jpg"  className="w-100" alt="" />
                                     <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                         <div>
                                             <a href="" className='text-white fs-5'>Work 1</a>
@@ -63,7 +63,7 @@ function Work() {
                             </div>
                             <div className="col-md-6">
                                 <div className={`${styles.portItem}`}>
-                                    <img src="img-2-D-4H1m4L.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                    <img src="img-2-D-4H1m4L.jpg"  className="w-100" alt="" />
                                     <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                         <div>
                                             <a href="" className='text-white fs-5'>Work 1</a>
@@ -89,7 +89,7 @@ function Work() {
                             </div>
                             <div className="col-md-6">
                                 <div className={`${styles.portItem}`}>
-                                    <img src="img-3-pR2ZEVY9.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                    <img src="img-3-pR2ZEVY9.jpg"  className="w-100" alt="" />
                                     <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                         <div>
                                             <a href="" className='text-white fs-5'>Work 1</a>
@@ -115,7 +115,7 @@ function Work() {
                             </div>
                             <div className="col-md-6">
                                 <div className={`${styles.portItem}`}>
-                                    <img src="img-4-tHccITd-.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                    <img src="img-4-tHccITd-.jpg"  className="w-100" alt="" />
                                     <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                         <div>
                                             <a href="" className='text-white fs-5'>Work 1</a>
@@ -142,7 +142,7 @@ function Work() {
                             {!isShown && <>
                                 <div className="col-md-6">
                                     <div className={`${styles.portItem}`}>
-                                        <img src="img-5-lAucr__a.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                        <img src="img-5-lAucr__a.jpg"  className="w-100" alt="" />
                                         <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                             <div>
                                                 <a href="" className='text-white fs-5'>Work 1</a>
@@ -168,7 +168,7 @@ function Work() {
                                 </div>
                                 <div className="col-md-6">
                                     <div className={`${styles.portItem}`}>
-                                        <img src="img-6-DFW03AZ3.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                        <img src="img-6-DFW03AZ3.jpg"  className="w-100" alt="" />
                                         <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                             <div>
                                                 <a href="" className='text-white fs-5'>Work 1</a>
@@ -197,15 +197,15 @@ function Work() {
 
                         </div>
 
-                        <button className='btn btn-primary my-3' onClick={() => setIsShown(!isShown)}>Show {isShown ? "less" : "More"}</button>
+                        <button className='btn btn-primary my-3' onClick={() => setIsShown(!isShown)}>Show {!isShown ? "less" : "More"}</button>
                     </div>
 
-                    <div class="tab-pane fade" id="pills-brand" role="tabpanel" aria-labelledby="pills-profile-brand"
-                        tabindex="0">
+                    <div className="tab-pane fade" id="pills-brand" role="tabpanel" aria-labelledby="pills-profile-brand"
+                        tabIndex="0">
                         <div className="row g-3">
                             <div className="col-md-6">
                                 <div className={`${styles.portItem}`}>
-                                    <img src="img-1-C4nS0eD8.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                    <img src="img-1-C4nS0eD8.jpg"  className="w-100" alt="" />
                                     <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                         <div>
                                             <a href="" className='text-white fs-5'>Work 1</a>
@@ -231,7 +231,7 @@ function Work() {
                             </div>
                             <div className="col-md-6">
                                 <div className={`${styles.portItem}`}>
-                                    <img src="img-2-D-4H1m4L.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                    <img src="img-2-D-4H1m4L.jpg"  className="w-100" alt="" />
                                     <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                         <div>
                                             <a href="" className='text-white fs-5'>Work 1</a>
@@ -257,7 +257,7 @@ function Work() {
                             </div>
                             <div className="col-md-6">
                                 <div className={`${styles.portItem}`}>
-                                    <img src="img-3-pR2ZEVY9.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                    <img src="img-3-pR2ZEVY9.jpg"  className="w-100" alt="" />
                                     <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                         <div>
                                             <a href="" className='text-white fs-5'>Work 1</a>
@@ -283,7 +283,7 @@ function Work() {
                             </div>
                             <div className="col-md-6">
                                 <div className={`${styles.portItem}`}>
-                                    <img src="img-4-tHccITd-.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                    <img src="img-4-tHccITd-.jpg"  className="w-100" alt="" />
                                     <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                         <div>
                                             <a href="" className='text-white fs-5'>Work 1</a>
@@ -310,7 +310,7 @@ function Work() {
                             {!isShown && <>
                                 <div className="col-md-6">
                                     <div className={`${styles.portItem}`}>
-                                        <img src="img-5-lAucr__a.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                        <img src="img-5-lAucr__a.jpg"  className="w-100" alt="" />
                                         <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                             <div>
                                                 <a href="" className='text-white fs-5'>Work 1</a>
@@ -336,7 +336,7 @@ function Work() {
                                 </div>
                                 <div className="col-md-6">
                                     <div className={`${styles.portItem}`}>
-                                        <img src="img-6-DFW03AZ3.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                        <img src="img-6-DFW03AZ3.jpg"  className="w-100" alt="" />
                                         <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                             <div>
                                                 <a href="" className='text-white fs-5'>Work 1</a>
@@ -365,15 +365,15 @@ function Work() {
 
                         </div>
 
-                        <button className='btn btn-primary my-3' onClick={() => setIsShown(!isShown)}>Show {isShown ? "less" : "More"}</button>
+                        <button className='btn btn-primary my-3' onClick={() => setIsShown(!isShown)}>Show {!isShown ? "less" : "More"}</button>
                     </div>
 
-                    <div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-contact-web"
-                        tabindex="0">
+                    <div className="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-contact-web"
+                        tabIndex="0">
                         <div className="row g-3">
                             <div className="col-md-6">
                                 <div className={`${styles.portItem}`}>
-                                    <img src="img-1-C4nS0eD8.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                    <img src="img-1-C4nS0eD8.jpg"  className="w-100" alt="" />
                                     <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                         <div>
                                             <a href="" className='text-white fs-5'>Work 1</a>
@@ -399,7 +399,7 @@ function Work() {
                             </div>
                             <div className="col-md-6">
                                 <div className={`${styles.portItem}`}>
-                                    <img src="img-2-D-4H1m4L.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                    <img src="img-2-D-4H1m4L.jpg"  className="w-100" alt="" />
                                     <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                         <div>
                                             <a href="" className='text-white fs-5'>Work 1</a>
@@ -425,7 +425,7 @@ function Work() {
                             </div>
                             <div className="col-md-6">
                                 <div className={`${styles.portItem}`}>
-                                    <img src="img-3-pR2ZEVY9.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                    <img src="img-3-pR2ZEVY9.jpg"  className="w-100" alt="" />
                                     <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                         <div>
                                             <a href="" className='text-white fs-5'>Work 1</a>
@@ -451,7 +451,7 @@ function Work() {
                             </div>
                             <div className="col-md-6">
                                 <div className={`${styles.portItem}`}>
-                                    <img src="img-4-tHccITd-.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                    <img src="img-4-tHccITd-.jpg"  className="w-100" alt="" />
                                     <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                         <div>
                                             <a href="" className='text-white fs-5'>Work 1</a>
@@ -478,7 +478,7 @@ function Work() {
                             {!isShown && <>
                                 <div className="col-md-6">
                                     <div className={`${styles.portItem}`}>
-                                        <img src="img-5-lAucr__a.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                        <img src="img-5-lAucr__a.jpg"  className="w-100" alt="" />
                                         <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                             <div>
                                                 <a href="" className='text-white fs-5'>Work 1</a>
@@ -504,7 +504,7 @@ function Work() {
                                 </div>
                                 <div className="col-md-6">
                                     <div className={`${styles.portItem}`}>
-                                        <img src="img-6-DFW03AZ3.jpg" style={{ height: "400px" }} className="w-100" alt="" />
+                                        <img src="img-6-DFW03AZ3.jpg"  className="w-100" alt="" />
                                         <div className={`${styles.portLayer} d-flex justify-content-evenly align-items-start ps-3 flex-column`}>
                                             <div>
                                                 <a href="" className='text-white fs-5'>Work 1</a>
@@ -533,7 +533,7 @@ function Work() {
 
                         </div>
 
-                        <button className='btn btn-primary my-3' onClick={() => setIsShown(!isShown)}>Show {isShown ? "less" : "More"}</button>
+                        <button className='btn btn-primary my-3' onClick={() => setIsShown(!isShown)}>Show {!isShown ? "less" : "More"}</button>
                     </div>
                 </div>
             </div>

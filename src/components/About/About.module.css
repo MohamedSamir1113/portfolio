@@ -78,3 +78,11 @@
 .iconColor4{
    color:#a84cb8;
 }
+
+@media screen and (max-width:768px) {
+    .services
+{
+    margin-bottom: 15px;
+    
+}
+}
