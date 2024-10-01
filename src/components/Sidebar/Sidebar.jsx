@@ -1,10 +1,10 @@
 // Sidebar.js
 import { Link } from "react-router-dom";
 import styles from './Sidebar.module.css'
-function Sidebar({ isExpanded, setIsExpanded }) {
+function Sidebar({ isExpanded, setIsExpanded,width}) {
     return (
         <>
-            <div className={`sidebar ${isExpanded ? "w-100 vh-100" : ""} position-${isExpanded ? "relative" : "fixed"} top-0 bottom-0`}>
+            <div className={`sidebar ${isExpanded ? width : ""} position-fixed top-0 bottom-0`}>
                 <div className="container-fluid d-flex justify-content-center text-center align-items-center py-2">
                     <div className="py-5">
                         <div className="userImg"></div>

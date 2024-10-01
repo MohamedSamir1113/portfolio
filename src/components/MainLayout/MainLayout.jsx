@@ -23,7 +23,7 @@ function MainLayout() {
         </button>
           {isSidebarExpanded ? (
             <div className=" p-0">
-              <Sidebar isExpanded={isSidebarExpanded} setIsExpanded={setIsSidebarExpanded} />
+              <Sidebar width={"w-100"} isExpanded={isSidebarExpanded} setIsExpanded={setIsSidebarExpanded} />
             </div>
           ) : (
             <div className=" p-0">
